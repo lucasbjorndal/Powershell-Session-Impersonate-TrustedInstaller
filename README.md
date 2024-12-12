@@ -20,6 +20,8 @@ To be able to run the script as intended (With starting service TrustedInstaller
 
 - Run a new powershell session as Administrator
 
+- Do ``` Set-ExecutionPolicy Unrestricted -scope CurrentUser ``` 
+
 - Use ``` cd /path/to/script/directory``` to navigate to the directory
 
 - Run the script by doing ``` ./RunPowershellSessionTrustedInstaller.ps1``` 
